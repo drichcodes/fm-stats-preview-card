@@ -1,0 +1,17 @@
+@charset "UTF-8";
+html, body {
+    width: 1440px; 
+    font-size: 15px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+h1 {
+    font-size: 4rem;
+}
