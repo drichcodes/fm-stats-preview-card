@@ -63,6 +63,17 @@ nav ul li {
     list-style: none;
     max-width: 5rem;
     margin: 2em;
+    align-items: center;
+    letter-spacing: 1px;
+    font-size: 1em;
+}
+
+nav ul li span {
+    font-size: .5em;
+    font-weight: normal;
+    font-family: var(--ff-accent);
+    text-transform: uppercase;
+    color: var(--clr-text-300);
 }
 
 p {
