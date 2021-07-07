@@ -84,3 +84,9 @@ p {
     line-height: 1.6em;
     text-align: center;;
 }
+
+@media (min-width: 1440px) {
+    .container {
+        flex-direction: row;
+    }
+}
