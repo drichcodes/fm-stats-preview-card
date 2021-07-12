@@ -54,7 +54,7 @@ body {
 }
 
 #img {
-    padding: 7rem;
+    padding: 6.5rem;
     background-image: url(../img/mob-header.jpg);
     background-blend-mode: hard-light;
     background-color: var(--clr-accent-300);
@@ -108,7 +108,7 @@ p {
     text-align: center;
 }
 
-@media (min-width: 750px) {
+@media (min-width: 768px) {
     .container {
         flex-direction: row;
     }
@@ -125,6 +125,17 @@ p {
         text-align: left;
     }
 
+    #info {
+        border-top-left-radius: 10px;
+        border-bottom-right-radius: 0px;
+    }
+
+    #img {
+        border-top-left-radius: 0px;
+        border-top-right-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+
     p {
         max-width: 30rem;
         text-align: left;
@@ -138,6 +149,6 @@ p {
     }
 
     nav ul li {
-        padding-right: 70%;
+        padding-right: 7rem;
     }
 }
